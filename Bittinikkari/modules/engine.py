@@ -1,4 +1,7 @@
 # Bittinikkari - engine.py
+# Tekijä: Tuomas Lähteenmäki
+# Lisenssi: GNU GPLv3
+
 import os
 import shutil
 from datetime import datetime
@@ -167,6 +170,7 @@ def run_fixing_logic(file_path, settings):
         f.write(content)
 
     return changes, issues
+
 
 
 
