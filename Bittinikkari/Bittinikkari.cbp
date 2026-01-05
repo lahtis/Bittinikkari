@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CodeBlocks_project_file>
+	<Project>
+		<Option title="Bittinikkari" />
+		<Unit filename="nikkari.py" />
+		<Unit filename="LICENSE.txt" />
+		<Unit filename="modules/engine.py" />
+		<Unit filename="modules/editor_ui.py" />
+	</Project>
+</CodeBlocks_project_file>
