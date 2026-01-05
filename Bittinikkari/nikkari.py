@@ -1,3 +1,6 @@
+# Bittinikkari - nikkari.py (main program)
+# Tekijä: Tuomas Lähteenmäki
+# Lisenssi: GNU GPLv3
 import sys
 import os
 
@@ -17,4 +20,5 @@ try:
         main()
 except ImportError as e:
     print(f"Virhe moduulien latauksessa: {e}")
+
     print("Varmista, että 'modules'-kansiossa on __init__.py ja editor_ui.py.")
