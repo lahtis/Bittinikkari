@@ -1,3 +1,6 @@
+# Bittinikkari lite - editor_ui.py
+# Tekijä: Tuomas Lähteenmäki
+# Lisenssi: GNU GPLv3
 import tkinter as tk
 import xml.etree.ElementTree as ET
 from tkinter import filedialog, messagebox, ttk
@@ -121,4 +124,5 @@ class BittinikkariEditor:
 if __name__ == "__main__":
     root = tk.Tk()
     app = BittinikkariEditor(root)
+
     root.mainloop()
