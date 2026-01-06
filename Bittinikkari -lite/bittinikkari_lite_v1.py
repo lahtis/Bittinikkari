@@ -1,4 +1,4 @@
-# Bittinikkari lite - editor_ui.py
+# Bittinikkari lite - bittinikkari_lite_v1.py
 # Tekijä: Tuomas Lähteenmäki
 # Lisenssi: GNU GPLv3
 import tkinter as tk
@@ -126,3 +126,4 @@ if __name__ == "__main__":
     app = BittinikkariEditor(root)
 
     root.mainloop()
+
