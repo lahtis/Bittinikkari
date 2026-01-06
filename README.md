@@ -1,6 +1,6 @@
 🛠 **Projektin osat ja versiot**
 
-    1.** Bittinikkari (Pääversio - nikkari.py) **
+    1.** Bittinikkari (Pääversio - bittinikkari-medium.py) **
     * Käyttötarkoitus: Täysiverinen projektieditori.
     
 **Tärkeimmät ominaisuudet:**
