@@ -1,5 +1,6 @@
-# Bittinikkari lite - bittinikkari_lite_v1.py
+# Bittinikkari lite - bittinikkari_lite.py
 # Tekijä: Tuomas Lähteenmäki
+# Version: 0.2
 # Lisenssi: GNU GPLv3
 import tkinter as tk
 import xml.etree.ElementTree as ET
@@ -126,4 +127,5 @@ if __name__ == "__main__":
     app = BittinikkariEditor(root)
 
     root.mainloop()
+
 
