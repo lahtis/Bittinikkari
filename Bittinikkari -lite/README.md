@@ -2,16 +2,6 @@
 
 Bittinikkari is a specialized, open-source code editor designed for Python and C development. It focuses on lightweight performance, project management, and smart code maintenance.
 
-## 🛠 Project Versions
-
-### 1. Bittinikkari (Main Version - `bittinikkari-medium.py `)
-The full-featured project editor for serious development.
-* **Code::Blocks Integration:** Support for `.cbp` project files with XML-based parsing.
-* **Project Sidebar:** Manage all project files from a convenient side panel.
-* **Tabbed Interface:** Work on multiple files simultaneously.
-* **Extended Tools:** Comprehensive toolbar and right-click context menus.
-* **Integrated License Viewer:** Quick access to the GPLv3 license terms.
-
 ### 2. Bittinikkari Lite (`bittinikkari_lite.py`)
 A minimalist, "standalone" editor for quick edits.
 * **Zero Dependencies:** All logic contained within a single file.
@@ -20,7 +10,7 @@ A minimalist, "standalone" editor for quick edits.
 
 ---
 
-## ✨ Key Features (Integrated in Both Versions)
+## ✨ Key Features
 
 * **Automatic Backups:** Every save operation automatically generates a `.bak` backup file to prevent data loss.
 * **C Memory Safety:** Built-in analyzer that scans code for `malloc` calls and warns if a corresponding `free` is missing.
@@ -42,3 +32,4 @@ A minimalist, "standalone" editor for quick edits.
    Run the included installer to create cross-platform shortcuts:
    ```bash
    python install_bittinikkari.py
+
