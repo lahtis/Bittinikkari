@@ -1,28 +1,25 @@
-# Bittinikkari Editor
+# Bittinikkari Lite ⚡
 
-Bittinikkari is a specialized, open-source code editor designed for Python and C development. It focuses on lightweight performance, project management, and smart code maintenance.
+**Bittinikkari Lite** is a high-performance, minimalist code editor designed for quick edits and standalone use. Built entirely on Python’s standard Tkinter library, it offers a "zero-dependency" experience, meaning it runs instantly on any system with Python installed without requiring additional library setups.
 
-### 2. Bittinikkari Lite (`bittinikkari_lite.py`)
-A minimalist, "standalone" editor for quick edits.
-* **Zero Dependencies:** All logic contained within a single file.
-* **Dark Mode:** A clean, dark-themed editor for focus.
-* **Speed:** Instant startup, ideal for emergency edits or single-script tweaks.
 
----
+## Key Features
+* **Zero-Dependency:** Runs on standard Python libraries. No `pip install` required for the editor itself.
+* **Minimalist UI:** Clean, dark-themed interface optimized for readability.
+* **Safety First:** Automatically creates a `.bak` backup file before every save to prevent data loss.
+* **One-Click Optimizer:** Built-in tool to remove trailing whitespaces and clean up code formatting.
+* **Custom Branding:** Includes support for a custom `icon.ico` for a professional desktop experience.
 
-## ✨ Key Features
 
-* **Automatic Backups:** Every save operation automatically generates a `.bak` backup file to prevent data loss.
-* **C Memory Safety:** Built-in analyzer that scans code for `malloc` calls and warns if a corresponding `free` is missing.
-* **One-Command Optimization (⚡):** Use the Lightning button or `Ctrl+Shift+B` to perform a "Mass Cleanup":
-    * Auto-indentation correction.
-    * Removal of trailing whitespace.
-    * Instant project-wide backup.
-* **Native Performance:** Built entirely on Python's standard library (**Tkinter**), requiring no external `pip` installations for the editor itself.
+## Installation & Setup
 
----
+### 1. Basic Usage
+Simply run the script with Python:
+```bash
+python bittinikkari-lite.py
+```
 
-## 🚀 Installation & Setup
+### 🚀 Installation
 
 1. **Prerequisites:**
    * Python 3.12 or newer.
@@ -33,3 +30,20 @@ A minimalist, "standalone" editor for quick edits.
    ```bash
    python install_bittinikkari.py
 
+---
+
+## Project Structure
+bittinikkari-lite.py: The main editor script.
+   * ```icon.ico```: The application icon.
+   * ```install_bittinikkari.py```: Shortcut creator for Windows and Linux environments.
+
+   
+## Version History
+   * v0.1: Initial release, basic file operations.
+   * v0.2: Added English documentation, icon support, and whitespace optimization.
+
+## License & Credits
+   * Author: Tuomas Lähteenmäki
+   * License: GNU GPLv3 - Free to use, modify, and distribute.
+---
+Developed for the flow of coding.
