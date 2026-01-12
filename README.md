@@ -1,17 +1,17 @@
 🛠 **Projektin osat ja versiot**
 
-    1.** Bittinikkari (Pääversio - bittinikkari-medium.py) **
-    * Käyttötarkoitus: Täysiverinen projektieditori.
+**Bittinikkari (Pääversio - bittinikkari-medium.py)**
+
+* Käyttötarkoitus: Täysiverinen projektieditori.
     
-**Tärkeimmät ominaisuudet:**
-* 
+**Tärkeimmät ominaisuudet:** 
 * .cbp (CodeBlocks) -projektitiedostojen tuki ja XML-pohjainen lukeminen.
 * Sivupalkki projektin tiedostojen hallintaan.
 * Välilehdet useille tiedostoille.
 * Laajennettu työkalupalkki ja kontekstivalikot (oikea hiiren nappi).
 * Integroitu LICENSE.txt -lukija (GPLv3).
             
-2.**Bittinikkari Lite (bittinikkari-lite.py)**
+**Bittinikkari Lite (bittinikkari-lite.py)**
     
 * Käyttötarkoitus: Kevyt, yhden tiedoston "standalone" -editori.
 * Tärkeimmät ominaisuudet:
